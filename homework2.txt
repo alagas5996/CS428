@@ -1,0 +1,32 @@
+Alexander Lagas
+CS428: Homework 4
+
+1. 
+	a. gaia.cs.umass.edu/kurose_ross/interactive/quotation6.htm (Under GET request 		and host fields)
+	b. HTTP 1.1 (In get request)
+	c. 17.0.963.56 (After Chrome on User Agent field)
+	d. Tue, 10 Jan 2017 05:02:03 (If-modified-since)
+	e. Chrome (Only item in User Agent field w/ IP)
+
+2.
+	sum(propDelay(RTT1)+queueDelay(RTT1)+procDelay(RTT1)+propDelay(RTT2)+
+	queueDelay(RTT2)+procDelay(RTT2)+...+propDelay(RTTn)+queueDelay(RTTn)+
+	procDelay(RTTn)) + sum(propDelay(RTTn)+queueDelay(RTTn)+ProcDelay(RTTn))
+
+	= sum(nodalDelay(RTT1) + nodalDelay(RTT2) + ... + nodalDelay(RTTn)) + 
+	nodal Delay(RTTn)
+
+	=sum(nodalDelay(RTT1) + nodalDelay(RTT2) + ... + 2*nodalDelay(RTTn));
+
+	=<DNSn_lookup_delay> + <file_Transmission_Time>
+
+3.
+	a. sum(nodalDelay(RTT1) + nodalDelay(RTT2) + ... + 9*nodalDelay(RTTn));
+	=<DNSn_lookup_delay> + 8 * <file_transmission_time>
+
+	b. sum(nodalDelay(RTT1) + nodalDelay(RTT2) + ... + 3*nodalDelay(RTTn));
+	=<DNSn_lookup_delay> + 2 * <file_Transmission_Time>
+	(First batch of 5 takes <file_transmission_Time>, next 3 take another
+	<file_transmission_time>)
+
+	c. 8 * <file_transmission_time>

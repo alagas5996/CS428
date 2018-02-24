@@ -1,0 +1,18 @@
+Alexander Lagas
+Wireshark Lab 1
+
+1.
+-Internet Protocol (IP)
+-Transmission Control Protocol (TCP)
+-Hypertext transfer protocol (HTTP)
+
+2.
+The HTTP response was recieved < 0.3 seconds after the request was sent.
+
+3.
+Addresses:
+Mine - 129.125.40.213
+gaia.cs.umass.edu - 128.119.245.12
+
+4.
+Didn't have access to a printer when I was doing this lab, so a screenshot is included in my submission.

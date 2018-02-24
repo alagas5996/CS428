@@ -1,0 +1,38 @@
+Alexander Lagas
+CS 428: Lab 2
+
+1. HTTP 1.1
+
+2. US English or English, with a strong but lesser preference (q= 0.9) towards English.
+
+3. My IP is 149.125.43.72, the gaia.cs.umass.edu server is 128.119245.12
+
+4. HTTP 200 OK
+
+5. Last modified Thursday, February 8, 2018 at 5:35 P.M. GMT
+
+6. 128 bytes of file data, 554 bytes overall.
+
+7. There are no extra frames in these packets.
+
+8. There is no line like this in the first packet.
+
+9. The server did return the contents of the file, shown by the relatively large packet size and HTTP response that included data on the size of the file.
+
+10. I do not see this line in the second packet
+
+11. The server returns code HTTP 304 Not Modified, indicating that it doe not return the contents of the file and that the file is stored in my cache.
+
+12. There is only one GET request, so this must contain the request for the Bill of Rights.
+
+13/14. Packet 34, containing HTTP code 200 OK
+
+15. The document was returned in 4 TCP segments.
+
+16. My browser sent four GET requests.
+
+17. They were downloaded serially, as shown by the alternating GET/OK pairs.
+
+18. The server responds with a HTTP code 401 unauthorized
+
+19. My browser did not send a second HTTP request.
