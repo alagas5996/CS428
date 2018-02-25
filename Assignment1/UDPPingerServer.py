@@ -10,7 +10,7 @@ from socket import *
 serverSocket = socket(AF_INET, SOCK_DGRAM)
 
 # Assign IP address and port number to socket
-serverSocket.bind(('localhost', 12000)) #localhost can be replaced by I.P address
+serverSocket.bind(('localhost', 4265)) #localhost can be replaced by I.P address
 
 while True:
     # Generate random number in the range of 0 to 10

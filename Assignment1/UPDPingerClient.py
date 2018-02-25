@@ -7,7 +7,7 @@ import time
 clientSocket = socket(AF_INET, SOCK_DGRAM)
 
 # Assign IP address and port number to socket
-clientSocket.bind(('localhost', 10000))
+clientSocket.bind(('localhost', 4266))
 clientSocket.settimeout(1)
 
 #Tracks number of pongs recieved
@@ -20,7 +20,7 @@ for i in range(0, 10):
     start = time.time()
     
     # Ping the server
-    clientSocket.sendto('Ping'.encode(), ('localhost', 12000))
+    clientSocket.sendto('Ping'.encode(), ('localhost', 4265))
 
     # Receive the server packet along with the address it is coming from
     try:
