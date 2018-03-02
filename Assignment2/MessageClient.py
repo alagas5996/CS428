@@ -17,7 +17,7 @@ while(port == 0):
 cliName = '0'
 while(cliName == '0'):
     try:
-        cliName = input("Input client name: ")
+        cliName = raw_input("Input client name: ")
     except:
         print("Must enter a client name")
 
